@@ -9,4 +9,11 @@ Phương pháp phát hiện giả mạo IP
 dàn ý, docs, code demo, ppt 
 
 
+https://www.geeksforgeeks.org/ethical-hacking-tutorial/
+
+https://www.geeksforgeeks.org/cyber-security-tutorial/
+
+https://www.geeksforgeeks.org/what-is-spoofing-in-cyber-security/
+
+https://www.geeksforgeeks.org/ip-spoofing/
 
