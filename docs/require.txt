@@ -1,0 +1,12 @@
+Phân tích các phương pháp phát hiện giả mạo IP 
+
+Các ý chính:
+Tổng quan về an ninh mạng 
+Kỹ thuật tấn công mạng giả mạo địa chỉ IP (IP Spoofing)
+Phương pháp phát hiện giả mạo IP 
+Đánh giá và so sánh các phương pháp
+
+dàn ý, docs, code demo, ppt 
+
+
+
