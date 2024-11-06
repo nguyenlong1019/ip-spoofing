@@ -1,0 +1,99 @@
+Report + PPT Slide + Code 
+
+
+Chủ đề "Phân tích các phương pháp phát hiện giả mạo IP" là một lĩnh vực quan trọng trong bảo mật mạng. 
+Giả mạo IP (IP spoofing) là kỹ thuật mà kẻ tấn công giả mạo địa chỉ IP nguồn để che giấu danh tính 
+hoặc thực hiện các cuộc tấn công khác như DDoS hoặc Man-in-the-Middle.
+
+Tập trung vào các kỹ thuật phổ biến: 
+
+Kiểm tra địa chỉ IP đầu cuối (Ingress/Egress Filtering):
+Phương pháp lọc gói tin dựa trên địa chỉ IP nguồn được định tuyến. 
+Lọc đầu cuối (ingress filtering) sẽ ngăn chặn các gói tin có địa chỉ IP nguồn không hợp lệ đi vào mạng.
+
+Phân tích lưu lượng bất thường (Anomaly Detection):
+Dựa trên việc phát hiện các mẫu lưu lượng không bình thường hoặc khác biệt so với thông thường, 
+ví dụ như số lượng gói tin từ một địa chỉ IP bất thường hoặc sự chênh lệch giữa thời gian gói tin đến.
+
+Kỹ thuật theo dõi đường đi (IP Traceback):
+Phương pháp này theo dõi ngược lại dòng lưu lượng để tìm ra nguồn gốc thực sự của gói tin, 
+giúp phát hiện và chặn các gói tin giả mạo.
+
+Sử dụng giao thức bảo mật như IPsec:
+IPsec mã hóa và xác thực các gói tin, ngăn chặn việc giả mạo IP bằng cách đảm bảo 
+rằng chỉ những gói tin từ các nguồn tin cậy mới có thể được truyền đi.
+
+Spoofed Packet Detection (Phát hiện gói tin bị giả mạo):
+Sử dụng các hệ thống phát hiện xâm nhập (IDS) hoặc phân tích gói tin để phát hiện các dấu hiệu 
+của giả mạo IP trong các gói tin mạng.
+
+Xác thực định tuyến (Routing Authentication):
+Đảm bảo rằng chỉ những thiết bị mạng đã được xác thực mới có thể tham gia vào quá trình 
+định tuyến và gửi các gói tin, ngăn chặn tấn công giả mạo IP ở lớp mạng.
+
+
+
+
+
+I. Tổng quan về An ninh mạng
+Giới thiệu về An ninh mạng:
+Tầm quan trọng của an ninh mạng trong thời đại số.
+Các loại mối đe dọa mạng phổ biến và các kỹ thuật tấn công.
+Vai trò của An ninh mạng trong việc bảo vệ hạ tầng công nghệ thông tin:
+Tầm quan trọng của bảo mật mạng để đảm bảo tính toàn vẹn, tính sẵn sàng và tính bảo mật dữ liệu.
+II. Kỹ thuật tấn công mạng giả mạo địa chỉ IP (IP Spoofing)
+Định nghĩa và mục đích của IP Spoofing:
+Giải thích cách kẻ tấn công sử dụng địa chỉ IP giả mạo để che giấu danh tính.
+Các phương thức IP Spoofing thường gặp:
+Blind IP Spoofing: Kẻ tấn công gửi gói tin mà không cần phản hồi.
+Non-blind IP Spoofing: Kẻ tấn công có thể nhìn thấy phản hồi từ máy chủ.
+Các loại tấn công liên quan đến IP Spoofing:
+Tấn công DDoS, Man-in-the-Middle, Session Hijacking.
+III. Phương pháp phát hiện giả mạo IP
+Ingress/Egress Filtering:
+Mô tả cách lọc gói tin theo địa chỉ IP nguồn và cách sử dụng để phát hiện IP giả mạo.
+Ưu, nhược điểm và hiệu quả khi áp dụng.
+Phân tích lưu lượng bất thường (Anomaly Detection):
+Sử dụng kỹ thuật học máy để phát hiện các mẫu lưu lượng bất thường.
+Mô hình và công cụ phổ biến: IDS/IPS.
+IP Traceback:
+Kỹ thuật theo dõi dòng lưu lượng ngược để tìm nguồn gốc của gói tin.
+Các phương pháp IP Traceback phổ biến.
+Sử dụng giao thức bảo mật IPsec:
+Cách mã hóa và xác thực gói tin để đảm bảo chỉ những nguồn tin cậy được truyền tải.
+Spoofed Packet Detection:
+Phân tích gói tin và xác định dấu hiệu giả mạo trong gói tin.
+IV. Đánh giá và So sánh các phương pháp
+Tiêu chí đánh giá:
+Độ chính xác, khả năng phát hiện, tính khả thi, chi phí và tính hiệu quả.
+So sánh ưu, nhược điểm của các phương pháp:
+Tổng hợp bảng so sánh các phương pháp.
+Kết luận và kiến nghị:
+Đánh giá tổng quát về hiệu quả của các phương pháp.
+Đề xuất hướng nghiên cứu và cải thiện trong tương lai.
+
+
+Tài liệu chi tiết (Documentation)
+Phần tài liệu: Giải thích từng phương pháp phát hiện giả mạo IP một cách chi tiết kèm với sơ đồ và bảng so sánh.
+Các công cụ và thư viện: Nêu rõ các công cụ cần thiết, như Wireshark, PyShark, Scapy (Python) cho việc phân tích gói tin và phát hiện IP spoofing.
+
+
+
+Code Demo
+Môi trường và công cụ: Python và Scapy để tạo kịch bản phát hiện gói tin giả mạo.
+Ví dụ mã nguồn:
+Phát hiện IP Spoofing bằng Ingress/Egress Filtering.
+Dò các gói tin bất thường với IDS đơn giản.
+Giải thích từng phần mã để giúp người đọc hiểu cách vận hành của mỗi phương pháp.
+
+
+Slide PowerPoint
+Slide 1: Tiêu đề và giới thiệu chủ đề.
+Slide 2-3: Tổng quan về an ninh mạng.
+Slide 4-6: Giới thiệu về IP Spoofing và các kỹ thuật tấn công.
+Slide 7-10: Phân tích từng phương pháp phát hiện giả mạo IP.
+Slide 11: Bảng so sánh các phương pháp.
+Slide 12: Đánh giá và đề xuất cải thiện.
+Slide 13: Kết luận và hướng nghiên cứu trong tương lai.
+Dàn ý này sẽ giúp bạn có một cấu trúc rõ ràng cho đồ án của mình. Khi triển khai mã và các tài liệu bổ sung, hãy đảm bảo kiểm tra kỹ các kết quả và thử nghiệm từng phương pháp phát hiện giả mạo IP để đảm bảo tính chính xác cao.
+
