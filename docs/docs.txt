@@ -97,3 +97,78 @@ Slide 12: Đánh giá và đề xuất cải thiện.
 Slide 13: Kết luận và hướng nghiên cứu trong tương lai.
 Dàn ý này sẽ giúp bạn có một cấu trúc rõ ràng cho đồ án của mình. Khi triển khai mã và các tài liệu bổ sung, hãy đảm bảo kiểm tra kỹ các kết quả và thử nghiệm từng phương pháp phát hiện giả mạo IP để đảm bảo tính chính xác cao.
 
+
+
+Report content 
+Lời cảm ơn
+Mở đầu
+1. Lý do chọn đề tài 
+2. Mục tiêu nghiên cứu 
+3. Đối tượng nghiên cứu 
+4. Phạm vi nghiên cứu 
+5. Phương pháp nghiên cứu 
+6. Ý nghĩa khoa học và thực tiễn của đề tài 
+7. Cấu trúc báo cáo DATN 
+
+CHƯƠNG 1. TỔNG QUAN VỀ AN NINH MẠNG 
+1.1. Cơ sở lý thuyết 
+1.2. Công nghệ sử dụng 
+
+
+
+
+Kế hoạch thực hiện 
+Lời cảm ơn 
+Mục lục
+
+Mở đầu 
+1. Lý do lựa chọn đề tài 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
